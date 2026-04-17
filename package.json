@@ -1,0 +1,17 @@
+{
+  "name": "md5-pin-cracker",
+  "version": "1.0.0",
+  "description": "Eksperimen brute-force & dictionary attack terhadap hash MD5 PIN",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start":  "node app.js",
+    "soal1":  "node soal1.js",
+    "soal2":  "node soal2.js",
+    "soal3":  "node soal3.js",
+    "soal4":  "node soal4.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.3.8"
+  }
+}
