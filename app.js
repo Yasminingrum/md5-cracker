@@ -4,10 +4,10 @@
 // ============================================================
 
 import inquirer from "inquirer";
-import { bruteForcePlain }    from "./soal1.js";
-import { bruteForceUnknownSalt } from "./soal2.js";
-import { bruteForceKDF3 }     from "./soal3.js";
-import { dictionaryAttack }   from "./soal4.js";
+import { bruteForcePlain }    from "./soal/soal1.js";
+import { bruteForceUnknownSalt } from "./soal/soal2.js";
+import { bruteForceKDF3 }     from "./soal/soal3.js";
+import { dictionaryAttack }   from "./soal/soal4.js";
 
 function timeExecution(label, fn) {
   const start = Date.now();
